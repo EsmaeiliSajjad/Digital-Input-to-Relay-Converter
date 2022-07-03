@@ -35,6 +35,7 @@ The followings are a list of items to a circuit board and convert one Ditital Ou
 
 a NPN transistor (e.g., BD-139) is used here where the Base is connected in a series with 2.2 KOhm resistor to a digital output channel of a Digital Output device. There is another resistor (10 KOhm) is connected between the Base and Emitter of the transistor. The coil of the electromagnetic relay is connected to the positive pole (+24 V) and the collector of the transistor (GND). An LED light with a 10KOhm resistor is connected parallel to the relay showing where the channel is ON or OFF.
 The following figure demonstrates the desiged circuit board (PCB) for this purpose. The circuit board is designed in **Protel 99SE** software. Here only four channels are ready.
+![Picture1](https://user-images.githubusercontent.com/108043716/177025611-aac14b6d-936e-44e0-87c8-791e76503cbe.jpg)
 
 
 <a name="3"></a>
