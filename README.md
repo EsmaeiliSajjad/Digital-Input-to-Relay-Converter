@@ -20,7 +20,8 @@ Fig. 1: Example of NI Relay Output Module
 <a name="2"></a>
 # Required Devices
 In order to go with this project you should have the following items ready:
-1. NI-6001 (Universal analog and digital I/O)![1](https://user-images.githubusercontent.com/108043716/177025510-1c7571d7-4a0f-4f32-be89-a403b97a0c09.png) 
+1. NI-6001 (Universal analog and digital I/O)![1](https://user-images.githubusercontent.com/108043716/177025510-1c7571d7-4a0f-4f32-be89-a403b97a0c09.png)![image](https://user-images.githubusercontent.com/108043716/177026352-008c9eaf-ba27-4b26-84dc-d2752f9aa47c.png)
+
 2. Actuator or Soleniod valve
 3. Circuit board as a conveter (described in this project)
 4. 24 V power supply (other power supplies can be use such as 12V or 15V)
