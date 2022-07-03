@@ -11,7 +11,7 @@ In this project, we are introducing a desined 12 channel a Digital Output to Rel
 # Description
 One may be interested to have a Relay Output Module to be used in a data logger system where a digital output can be converted into a Relay Output module. A relay outpout module is capable of controlling a device to be ON or OFF. A simple device to be used for this purpose is an air-operator actuator or a soleniod valve. However, a simplest Relay Output module can easily cost you at least $400-$800, depending on the number of available channels. The following picture shows one of the cheapest Relay Output module from National Instrument with 4 channels utilized on electromagnetic relay. This module needs another interface module, such as CopmactDaq, cDaq-9171, to connect it to a computer for data logging purposes which can cost you another $600-$800. 
 
-<img src="https://user-images.githubusercontent.com/108043716/177025967-07355563-a29a-46fb-8db6-046afeeff769.png" width="500" />
+<img src="https://user-images.githubusercontent.com/108043716/177025967-07355563-a29a-46fb-8db6-046afeeff769.png" width="200" />
 
 Fig. 1: Example of NI Relay Output Module 
 
