@@ -24,7 +24,8 @@ In order to go with this project you should have the following items ready:
 2. Actuator or Soleniod valve 
 3. Circuit board as a conveter (described in this project)
 4. 24 V power supply (other power supplies can be use such as 12V or 15V) 
-<img src="https://user-images.githubusercontent.com/108043716/177025510-1c7571d7-4a0f-4f32-be89-a403b97a0c09.png" width="100" /> <img src="https://user-images.githubusercontent.com/108043716/177026352-008c9eaf-ba27-4b26-84dc-d2752f9aa47c.png" width="75" /> <img src="https://user-images.githubusercontent.com/108043716/177026484-89a79800-a4ca-45f3-b7e1-4f9955307be2.png" width="75" /> 
+5. 
+<img src="https://user-images.githubusercontent.com/108043716/177025510-1c7571d7-4a0f-4f32-be89-a403b97a0c09.png" width="150" />  <img src="https://user-images.githubusercontent.com/108043716/177026352-008c9eaf-ba27-4b26-84dc-d2752f9aa47c.png" width="150" />  <img src="https://user-images.githubusercontent.com/108043716/177026484-89a79800-a4ca-45f3-b7e1-4f9955307be2.png" width="150" /> 
 <a name="3"></a>
 # Circuit Board Design
 The followings are a list of items for the circuit board and convert one Digital Output Channel to a Relay Output Channel.
