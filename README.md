@@ -11,7 +11,7 @@ In this project, we introduced a desined 12 channel a Ditila Input to Relay Conv
 # Description
 One may be interested to have a Relay Output Module to be used in a data logger system where a digital input can be inverted into a relay module. A relay outpout module is capable of controlling a device to be on or off. A simple device to be used for this purpose is an air-operator actuator or a soleniod valve. However, a simplest Relay Output modeule can easily cost you at least $400-$800, depending on the number of available channels. The following picture shows one of the cheapest Relay output from National Instrument with 4 channels with electromagnetic relay. This module needs another interface module to connect it to a PC for data logging purposes which can cost you another $600-$800.
 
-![1](https://user-images.githubusercontent.com/108043716/177024499-856f5c77-24ab-44a6-bb9f-ca4508702136.png) <img width="100"> 
+![1]<img width="100", (https://user-images.githubusercontent.com/108043716/177024499-856f5c77-24ab-44a6-bb9f-ca4508702136.png)> 
 
 Fig. 1: Example of NI Relay Output Module 
 
