@@ -51,4 +51,4 @@ The following components are supported by this converter:
 4. Other low Amp (<10 amp) devices
 <a name="4"></a>
 # Upgrades
-The designed circuit board in this project is able to control up to 12 Relay Output channels. However, another version for 24 channels is also designed.
+The designed circuit board in this project is able to control up to 12 Relay Output channels. However, another version for 24 channels is also designed. Also, to support a high-amp device (e.g. Vacuum pump), you can change the type of relay to achieve this goal.
