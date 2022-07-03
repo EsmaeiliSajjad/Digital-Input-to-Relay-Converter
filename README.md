@@ -37,8 +37,8 @@ The followings are a list of items for the circuit board and convert one Digital
 
 a NPN transistor (e.g., BD-139) is used here where the Base is connected, in a series with 2.2 KOhm resistor, to a digital output channel of a Digital Output device. There is another resistor (10 KOhm) is connected between the Base and Emitter of the transistor. The coil of the electromagnetic relay is also connected to the positive pole (+24 V) and the collector of the transistor (GND). An LED light with a 10 KOhm resistor is connected parallel to the relay showing where the channel is ON or OFF. When a there is a digital signal goes into the Base on transistor, the transister will be truned on and the driver for circuit board of relay will be turned on as well.
 The following figure demonstrates the desiged circuit board (PCB) for this purpose. The circuit board is designed in **Protel 99SE** software. Here only four channels are ready.
-![Picture1](https://user-images.githubusercontent.com/108043716/177025641-1acea2bc-d654-43c1-9f3b-6ef199509e5e.jpg)
-![Picture2](https://user-images.githubusercontent.com/108043716/177025663-3593d234-a6d0-4920-8bd1-6165b8377529.jpg) 
+<img src="https://user-images.githubusercontent.com/108043716/177025641-1acea2bc-d654-43c1-9f3b-6ef199509e5e.jpg" width="500" />
+<img src="https://user-images.githubusercontent.com/108043716/177025663-3593d234-a6d0-4920-8bd1-6165b8377529.jpg" width="500" />
 
 Fig. 2: Desigend Circuit Board for Relay Output Converter. 
 
