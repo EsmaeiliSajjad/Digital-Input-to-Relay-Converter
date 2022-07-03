@@ -11,7 +11,8 @@ In this project, we introduced a desined 12 channel a Ditila Input to Relay Conv
 # Description
 One may be interested to have a Relay Output Module to be used in a data logger system where a digital input can be inverted into a relay module. A relay outpout module is capable of controlling a device to be on or off. A simple device to be used for this purpose is an air-operator actuator or a soleniod valve. However, a simplest Relay Output modeule can easily cost you at least $400-$800, depending on the number of available channels. The following picture shows one of the cheapest Relay output from National Instrument with 4 channels with electromagnetic relay. This module needs another interface module to connect it to a PC for data logging purposes which can cost you another $600-$800.
 
-![1]<img width="100", (https://user-images.githubusercontent.com/108043716/177024499-856f5c77-24ab-44a6-bb9f-ca4508702136.png)> 
+![Picture4](https://user-images.githubusercontent.com/108043716/177025699-c7fb06d9-d81c-4178-bf58-61ba8917b496.png)
+
 
 Fig. 1: Example of NI Relay Output Module 
 
@@ -32,31 +33,21 @@ The followings are a list of items to a circuit board and convert one Ditital Ou
 2. 24V Electromagnetic Relay
 3. LED light
 4. Resistors (10 Kohm and 2.2. Kohm)
+5. 16-pin Molex connector
 
 a NPN transistor (e.g., BD-139) is used here where the Base is connected in a series with 2.2 KOhm resistor to a digital output channel of a Digital Output device. There is another resistor (10 KOhm) is connected between the Base and Emitter of the transistor. The coil of the electromagnetic relay is connected to the positive pole (+24 V) and the collector of the transistor (GND). An LED light with a 10KOhm resistor is connected parallel to the relay showing where the channel is ON or OFF.
 The following figure demonstrates the desiged circuit board (PCB) for this purpose. The circuit board is designed in **Protel 99SE** software. Here only four channels are ready.
 ![Picture1](https://user-images.githubusercontent.com/108043716/177025641-1acea2bc-d654-43c1-9f3b-6ef199509e5e.jpg)
-
 ![Picture2](https://user-images.githubusercontent.com/108043716/177025663-3593d234-a6d0-4920-8bd1-6165b8377529.jpg)
+Fig. 2: Desigend Circuit Board for Relay Output Converter. 
 
 <a name="3"></a>
 # Supported Devices/components
-The following components can be connected to the NI-6001 and NI-9221:
-1. All PT and DP sensors with 0-10 V or 0-20 mA analog output.
-2. All Thermocouple types such as J-type, K_type, ets.
-3. All mass flow meters with 0-5 V analog output.
+The following components can be supported by this converter:
+1. Solenoind Valve (12-24V)
+2. LED or other types of light.
+3. Air-operated actuator
+4. Other low Amp (<10 amp) devices
 <a name="4"></a>
-# Display
-The following display can be seen in "Data" tab of the software:
-1. Pressure gauges
-2. Temperature vertical bar
-3. Mass flow meter value
-The operator is able to change the limit of the temperature bar or pressure gauges in the software.
-<a name="5"></a>
-# Calibration
-Any sensors such as Pressure transdcuer, Thermocpouple, Mass flow meter or Mass flow Controllers always come with a calibration sheet provided by the manusfacturer. For example for a pressure transdcuer with 0-10V configuration and 0-500 psi pressure variation, a calibration sheet shows the variation of pressure with corresponding voltage. Since most of sensors follow the linear trend between the measured parameter (e.g. pressure) and its analog output (e.g. voltage), a linear regression should be done on pressure versus voltage data.
-The operator should enter the slope and intercept of the fitted line in the calibration data of the developed software to configurate the software properly. The following figure shows this option in the software. 
-
-![5](https://user-images.githubusercontent.com/108043716/177008468-624c0bcc-eb8f-42d4-b421-67b793c0fa16.png) 
-
-Fig. 2: calibration configuration setting in the developed data logging software
+# Upgrades
+The designed circuit board in this project is able to control up to 12 Relay Output channels. However, another version for 24 channels can be easily designed.
